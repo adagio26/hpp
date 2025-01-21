@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+# Catch-All Rule for Other URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ index.php [L,QSA]

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hpp.syco.co.id/sitemap.xml
